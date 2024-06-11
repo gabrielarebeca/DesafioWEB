@@ -1,0 +1,133 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-color: #181F0F;
+    height: 90px;
+}
+
+.containerMenu, .containerLogo {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    display: block;
+    color: #B8CA77;
+    text-align: center;   
+    padding: 10px 18px;
+    text-decoration: none;
+}
+
+.containerMenu:hover{
+    transition: background-color 1.3s;
+    transform: scale(1.05);
+}
+
+.logo {
+    margin-left: 25px;
+    width: 171px;
+    height: 72px;
+    float: left;
+}
+
+nav {
+    display: flex;
+    float: right;
+    margin-right: 25px;
+}
+
+#ativo {
+    border-radius: 10px;
+    background-color: #B8CA77;
+    color: #181F0F;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.articleUm {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    background-color: #181F0F;
+    height: 100%;
+    padding: 30px;
+}
+
+.articleDois {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    align-items: center;
+    background-color: #E9EFEC;
+    padding: 30px;
+}
+
+.articleTres {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #181F0F;
+}
+
+.artigoQuatro {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    align-items: center;
+    background-color: #181F0F;
+}
+
+.artigoCinco{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    align-items: center;
+    background-color: #E9EFEC;
+}
+
+h1{
+    color: #B8CA77;
+    font-family: 'Merienda';
+    font-weight: 700;
+}
+
+p {
+    width: 80%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.paragrafoBranco {
+    color: #E9EFEC;
+}
+
+.paragrafoVerde{
+    color: #181F0F;
+}
+
+.dimensaoUm{
+    width: 223px;
+    height: 239px;
+    margin-right: 30px;
+}
+
+.dimensaoDois {
+    width: 116px;
+    height: 186px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #181F0F;
+    width: 100%;
+}
+
